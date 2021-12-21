@@ -1,0 +1,17 @@
+Package: StatComp21035
+Type: Package
+Title: Fast Large-scale Almost Exactly Matching
+Version: 1.1
+Date: 2021-12-10
+Author: Ma Haotian
+Maintainer: Ma Haotian <mht1130@mail.ustc.edu.cn>
+Description: This package uses bit-vector FLAME methods to drop irrelevant covarates to decrease the bias of ATE estimation.
+License: GPL (>= 2)
+Imports: Rcpp, microbenchmark, knitr, rmarkdown, dplyr, MASS, bootstrap, boot, RANN, energy, Ball, parallel, stats
+LinkingTo: Rcpp
+RoxygenNote: 7.1.2
+Encoding: UTF-8
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+URL: http://github.com/Hao-tian/StatComp
+BugReports: http://github.com/Hao-tian/StatComp/issues
